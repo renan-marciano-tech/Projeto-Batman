@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 19px;
+    transition: .5s;
+}
+
+li:hover{
+    color: red;
+}
+
+#logo{
+    width: 150px;
+    height: auto;
+    transition: 1s;
+    
+}
+
+#logo:hover{
+    transform: scale(.9);
+}
+
+div.fundo{
+    width: 100%;
+    height: 700px;
+    background-image: url('https://www.themoviedb.org/t/p/original/1BaxMkrN1jUYQcIgRjNOxCr2HNT.jpg');
+    background-position: 50% 50%;
+    background-size: contain;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+    column-gap: 5px;
+    margin-top: 6.5px;
+}
+
+.bat{
+    width: 100%;
+    height: 200px;
+    }
+
+.um{
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.BfRqnCq7Y38W4TCTV297pAHaEK&pid=Api&P=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.dois{
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.7EJur7_1iju7bYHX0qYOewHaEK&pid=Api&P=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.tres{
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.bYedgJ9NIVL4nuzwspCkHQHaEo&pid=Api&P=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.quatro{
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.PI1s4Ukxm7IxaUIfuDQp7gHaKk&pid=Api&P=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.cinco{
+    background-image: url('https://tse4.mm.bing.net/th?id=OIP.NNTf4tepVM-p8f5KO-nOuwHaD8&pid=Api&P=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.seis{
+    background-image: url('https://tse4.mm.bing.net/th?id=OIP.zHhWj-zFyUdFEALjNnlkTQHaEK&pid=Api&P=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.sete{
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.LUOwGzOOhpk9kW2W-JYYiAHaEQ&pid=Api&P=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.oito{
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.INK4jsskJD8KC1XN6bfPBwHaJI&pid=Api&P=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.nove{
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.UHGZ4QxtmcmEif6VifxpXAAAAA&pid=Api&P=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.dez{
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.ClwCqmk-OUA49XckAHyTIgHaEK&pid=Api&P=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.onze{
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.QNfO9hhpGfGUxzVtfthvXAHaFC&pid=Api&P=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.doze{
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.m2NeGr_Xeezf0-qiGcpnjgHaEI&pid=Api&P=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+footer{
+    height: 150px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span{
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+span.p{
+    font-size: 13px;
+}
+
+.footer-navegation{
+    display: none;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+i{
+    color: #fff;
+    padding: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+i:hover{
+    color: #b30000;
+}
+
+@media(max-width:768px){
+
+    .footer-navegation{
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .fundo{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-repeat: no-repeat;
+        background-position: 40%;
+        background-size: cover;
+    }
+}
